@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import Hero from './components/Hero'
+import roll2 from './assets/roll2.svg'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App flex flex-col justify-center items-center overflow-clip">
+      <Hero />
+      <img src={roll2} alt="" className='z-20 w-[1500px]  lg:w-[3000px] max-w-none lg:-mt-28 -mt-14' />
     </div>
   );
 }
