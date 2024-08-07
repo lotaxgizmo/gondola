@@ -13,6 +13,8 @@ import awkwardgondola from '../assets/awkwardgondola.png'
 import roll1 from '../assets/roll1.svg'
 import roll2 from '../assets/roll2.svg'
 import hairdola from '../assets/hairdola.svg'
+import skydola from '../assets/skydola.png'
+import capdola from '../assets/capdola.svg'
 
 import Header from '../components/Header'
 
@@ -33,18 +35,21 @@ function Hero() {
 
 
             <div className="hero flex flex-col justify-center items-center relative w-fit border-2d">
+                <img src={skydola} alt="" className='absolute z-[1] w-16 lg:w-[200px] left-52 -top-20 lg:left-[35%] lg:-top-16 max-w-none' />
                 <img src={hairdola} alt="" className='absolute z-[1] w-16 lg:w-[250px] right-52 -top-16 lg:right-80 lg:-top-32 max-w-none' />
-                <img src={standongondola} alt="" className='absolute z-[21] w-12 lg:w-[120px] right-5 -top-10 lg:right-24 lg:top-0 max-w-none' />
+                <img src={standongondola} alt="" className='absolute z-[1] w-12 lg:w-[150px] right-5 -top-10 lg:right-24 lg:-top-16 max-w-none' />
                 <img src={gondohero} alt="" className='z-20 w-10/12 lg:mt-20 lg:-mb-20' />
+
             </div>
+            <img src={capdola} alt="" className='absolute z-[1] w-16 lg:w-[200px] left-20 bottom-0 lg:left-[15%] lg:bottom-0 max-w-none' />
 
             <div className='z-20 flex flex-row justify-center items-center'>
                 <img src={buynow} alt="" className='z-20 w-52 lg:w-72 p-2' />
                 <img src={chart} alt="" className='z-20 w-52 lg:w-72 p-2' />
             </div>
 
-            <img src={CA} alt="" className='z-20 w-96 lg:w-8/12' />
-            <img src={standgondola} alt="" className='w-20 justify-end bottom-0 -mb-10 move-left-right' />
+            <img src={CA} alt="" className='z-20 w-96 lg:w-8/12 mb-20 lg:mb-96 ' />
+            <img src={standgondola} alt="" className='w-20 lg:w-60 a absolute bottom-0 justify-end bottom-0 -mb-10 move-left-right' />
         </div>
     )
 }
