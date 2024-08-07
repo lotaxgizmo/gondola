@@ -7,7 +7,7 @@ import tiktok from '../assets/tiktok.svg'
 import twitter from '../assets/twitter.svg'
 import linkhalfbox from '../assets/linkhalfbox.svg'
 import linkhalfboxmobile from '../assets/linkhalfboxmobile.svg'
-import mountaingondola from '../assets/mountaingondola.svg'
+import mountaingondola from '../assets/mountaingondola.png'
 
 function Link() {
     return (
@@ -54,7 +54,7 @@ function Link() {
 
                 </div>
                 <div className="right flex justify-center items-center">
-                    <img src={mountaingondola} alt="" className='w-11/12 lg:w-9d/12 ' />
+                    <img src={mountaingondola} alt="" className='w-11/12 lg:w-[410px] ' />
 
                 </div>
             </div>
