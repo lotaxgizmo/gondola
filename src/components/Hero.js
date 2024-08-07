@@ -12,13 +12,17 @@ import ordinarygondola from '../assets/ordinarygondola.png'
 import awkwardgondola from '../assets/awkwardgondola.png'
 import roll1 from '../assets/roll1.svg'
 import roll2 from '../assets/roll2.svg'
+
+import Header from '../components/Header'
+
+
 function Hero() {
     return (
         <div className='mainhero overflow-hidden flex flex-col lg:justify-center justify-start items-center relative pt-20d lg:min-h-screen, pt-20 lg:pb-10 pb-0 '>
             <img src={roll1} alt="" className='z-20 w-[1500px]  lg:w-[3000px] max-w-none absolute top-0' />
 
-
-            <img src={header} alt="" className='z-20 w-96' />
+            <Header />
+            {/* <img src={header} alt="" className='z-20 w-96' /> */}
 
             <div className='absolutes'>
                 <img src={gondolaleg} alt="" className='absolute w-40 lg:w-[600px] left-0 top-20 max-w-none' />
@@ -38,7 +42,7 @@ function Hero() {
             </div>
 
             <img src={CA} alt="" className='z-20 w-96 lg:w-8/12' />
-            <img src={standgondola} alt="" className='w-20 justify-end bottom-0' />
+            <img src={standgondola} alt="" className='w-20 justify-end bottom-0 -mb-10' />
 
         </div>
     )
