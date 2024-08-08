@@ -40,13 +40,13 @@
 }
 
 .noise {
-  background-image: url(./assets/noise.png);
+  background-imagee: url(./assets/noise.png);
   background-size: contain;
   background-color: #28d5ff;
 }
 
 .noise2 {
-  background-image: url(./assets/noise.png);
+  background-imagee: url(./assets/noise.png);
   background-size: contain;
   background-color: #d6ebfe;
 }
@@ -80,4 +80,30 @@
 
 .move-left-right {
   animation: moveLeftRight 5s infinite;
+}
+
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(20%);
+  }
+}
+
+.moving-image {
+  animation: moveLeftToRight 15s linear infinite;
+}
+
+@keyframes moveLeftToRight2 {
+  0% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(-20%);
+  }
+}
+
+.moving-image2 {
+  animation: moveLeftToRight2 15s linear infinite;
 }

@@ -15,10 +15,11 @@ import Join from './components/Join'
 function App() {
   return (
     <div className="App flex flex-col justify-center items-center overflow-clip">
-      <Hero />
-      <img src={roll2} alt="" className='z-20 w-[1500px]  lg:w-[3000px] max-w-none lg:-mt-28 -mt-14 -mb-14 lg:-mb-32' />
 
-      <div className="noise w-full flex flex-col justify-center items-center">
+      <Hero />
+      <img src={roll2} alt="" className=' moving-image z-20 w-[1500px]  lg:w-[3000px] max-w-none lg:-mt-28 -mt-14 -mb-14 lg:-mb-32' />
+
+      <div className="noise w-full flex flex-col justify-center items-center ">
         <Link />
         <Buy />
       </div>
@@ -26,7 +27,7 @@ function App() {
       <Howto />
       <Tokenomics />
 
-      {/* <Gallery /> */}
+      <Gallery />
       <Theblack />
 
       <Join />

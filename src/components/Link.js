@@ -8,6 +8,7 @@ import twitter from '../assets/twitter.svg'
 import linkhalfbox from '../assets/linkhalfbox.svg'
 import linkhalfboxmobile from '../assets/linkhalfboxmobile.svg'
 import mountaingondola from '../assets/mountaingondola.png'
+import Fade from 'react-reveal/Fade';
 
 function Link() {
     return (
@@ -20,37 +21,43 @@ function Link() {
                 <img src={linkhalfbox} className='absolutee -ml-10 -left-5 hidden lg:flex' alt="" />
                 <img src={linkhalfboxmobile} className='absolutee w-60 -mt-5 -left-5 lg:hidden flex' alt="" />
                 <div className="left">
-                    <div className="elite p-3 top flex flex-row justify-center items-center">
+                    <Fade cascade big >
+                        <div className="elite p-3 top flex flex-row justify-center items-center">
+                            <Fade cascade big >
 
-                        <a href="/#" target="_blank" rel="noopener noreferrer">
-                            <img src={coingecko} alt="" className='w-28 lg:w-60 p-1' />
-                        </a>
+                                <a href="/#" target="_blank" rel="noopener noreferrer">
+                                    <img src={coingecko} alt="" className='w-28 lg:w-60 p-1' />
+                                </a>
 
-                        <a href="/#" target="_blank" rel="noopener noreferrer">
-                            <img src={tiktok} alt="" className='w-28 lg:w-60 p-1' />
-                        </a>
+                                <a href="/#" target="_blank" rel="noopener noreferrer">
+                                    <img src={tiktok} alt="" className='w-28 lg:w-60 p-1' />
+                                </a>
 
-                        <a href="/#" target="_blank" rel="noopener noreferrer">
-                            <img src={twitter} alt="" className='w-28 lg:w-60 p-1' />
-                        </a>
+                                <a href="/#" target="_blank" rel="noopener noreferrer">
+                                    <img src={twitter} alt="" className='w-28 lg:w-60 p-1' />
+                                </a>
 
-                    </div>
+                            </Fade>
+                        </div>
 
-                    <div className="elite p-3 top flex flex-row justify-center items-center">
+                        <div className="elite p-3 top flex flex-row justify-center items-center">
 
-                        <a href="/#" target="_blank" rel="noopener noreferrer">
-                            <img src={cmc} alt="" className='w-28 lg:w-60 p-1' />
-                        </a>
+                            <Fade cascade big >
+                                <a href="/#" target="_blank" rel="noopener noreferrer">
+                                    <img src={cmc} alt="" className='w-28 lg:w-60 p-1' />
+                                </a>
 
-                        <a href="/#" target="_blank" rel="noopener noreferrer">
-                            <img src={dextools} alt="" className='w-28 lg:w-60 p-1' />
-                        </a>
+                                <a href="/#" target="_blank" rel="noopener noreferrer">
+                                    <img src={dextools} alt="" className='w-28 lg:w-60 p-1' />
+                                </a>
 
-                        <a href="/#" target="_blank" rel="noopener noreferrer">
-                            <img src={telegram} alt="" className='w-28 lg:w-60 p-1' />
-                        </a>
+                                <a href="/#" target="_blank" rel="noopener noreferrer">
+                                    <img src={telegram} alt="" className='w-28 lg:w-60 p-1' />
+                                </a>
+                            </Fade>
 
-                    </div>
+                        </div>
+                    </Fade>
 
                 </div>
                 <div className="right flex justify-center items-center">

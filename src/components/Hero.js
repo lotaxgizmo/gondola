@@ -12,25 +12,28 @@ import ordinarygondola from '../assets/ordinarygondola.png'
 import awkwardgondola from '../assets/awkwardgondola.png'
 import roll1 from '../assets/roll1.svg'
 import roll2 from '../assets/roll2.svg'
-import hairdola from '../assets/hairdola.svg'
+import hairdola from '../assets/hairdola.png'
 import skydola from '../assets/skydola.png'
-import capdola from '../assets/capdola.svg'
+import capdola from '../assets/capdola.png'
+import legupdola from '../assets/legupdola.png'
+import snabdola from '../assets/snabdola.png'
 
 import Header from '../components/Header'
-
+import Fade from 'react-reveal/Fade';
 
 function Hero() {
     return (
         <div className='mainhero overflow-hidden flex flex-col lg:justify-center justify-start items-center relative pt-20d lg:min-h-screen, pt-20 lg:pb-10 pb-0 '>
-            <img src={roll1} alt="" className='z-20 w-[1500px]  lg:w-[3000px] max-w-none absolute top-0' />
+            <img src={roll1} alt="" className='moving-image2 z-20 w-[1500px]  lg:w-[3000px] max-w-none absolute top-0' />
 
             <Header />
             {/* <img src={header} alt="" className='z-20 w-96' /> */}
 
             <div className='absolutes'>
                 <img src={gondolaleg} alt="" className='absolute w-40 lg:w-[600px] left-0 top-20 max-w-none' />
-                <img src={ordinarygondola} alt="" className='absolute z-[21] w-12 lg:w-[220px] right-0 bottom-10 lg:right-0 lg:bottom-20 max-w-none' />
-                <img src={awkwardgondola} alt="" className='absolute z-[19] w-12 lg:w-[100px] right-16 bottom-0 lg:right-52 lg:bottom-0 max-w-none' />
+                <img src={ordinarygondola} alt="" className='absolute z-[19] w-12 lg:w-[220px] right-0 bottom-0 lg:-right-10 lg:bottom-96 max-w-none' />
+
+                <img src={awkwardgondola} alt="" className='absolute z-[19] w-12 lg:w-[100px] right-16 -bottom-10 lg:right-52 lg:bottom-40 max-w-none' />
             </div>
 
 
@@ -38,10 +41,17 @@ function Hero() {
                 <img src={skydola} alt="" className='absolute z-[1] w-16 lg:w-[200px] left-52 -top-20 lg:left-[35%] lg:-top-16 max-w-none' />
                 <img src={hairdola} alt="" className='absolute z-[1] w-16 lg:w-[250px] right-52 -top-16 lg:right-80 lg:-top-32 max-w-none' />
                 <img src={standongondola} alt="" className='absolute z-[1] w-12 lg:w-[150px] right-5 -top-10 lg:right-24 lg:-top-16 max-w-none' />
-                <img src={gondohero} alt="" className='z-20 w-10/12 lg:mt-20 lg:-mb-20' />
+                <Fade>
+
+                    <img src={gondohero} alt="" className='z-20 w-10/12 lg:mt-20 lg:-mb-20' />
+                </Fade>
 
             </div>
             <img src={capdola} alt="" className='absolute z-[1] w-16 lg:w-[200px] left-20 bottom-0 lg:left-[15%] lg:bottom-0 max-w-none' />
+
+            <img src={legupdola} alt="" className='absolute z-[1] w-[150px]   bottom-0 hidden lg:flex  right-[20%] lg:bottom-0 max-w-none' />
+
+            <img src={snabdola} alt="" className='absolute z-[1] w-[150px]   bottom-0 hidden lg:flex  right-[0%] lg:bottom-10 max-w-none' />
 
             <div className='z-20 flex flex-row justify-center items-center'>
                 <img src={buynow} alt="" className='z-20 w-52 lg:w-72 p-2' />

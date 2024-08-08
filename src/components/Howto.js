@@ -8,23 +8,32 @@ import lilcloud from '../assets/lilcloud.png'
 import maxiscarfdola from '../assets/maxiscarfdola.png'
 import awkwardgondola from '../assets/awkwardgondola.png'
 import ordinarygondola from '../assets/ordinarygondola.png'
-
+import Fade from 'react-reveal/Fade';
 function Howto() {
     return (
         <div className='flex flex-col items-center justify-center howto relative pt-20'>
 
             <div className="thing relative flex flex-col justify-center items-center w-full">
-                <img src={howtobuy} alt="" className='w-8/12 z-20' />
+                <Fade cascade big >
+
+                    <img src={howtobuy} alt="" className='w-8/12 z-20' />
+                </Fade>
                 <img src={rollblurr} alt="" className='  absolute wf z-[12]' />
             </div>
 
             <div className="total flex flex-col lg:flex-row justify-center items-center">
                 <div className="left z-20">
-                    <img src={step1} alt="" className='w-[600px] p-2 z-20' />
-                    <img src={step2} alt="" className='w-[600px] p-2 z-20' />
+                    <Fade left cascade >
+
+                        <img src={step1} alt="" className='w-[600px] p-2 z-20' />
+                        <img src={step2} alt="" className='w-[600px] p-2 z-20' />
+                    </Fade>
                 </div>
                 <div className="right z-20">
-                    <img src={sittingdola} alt="" className='w-[700px] p-4' />
+                    <Fade right cascade >
+
+                        <img src={sittingdola} alt="" className='w-[700px] p-4' />
+                    </Fade>
                 </div>
             </div>
 

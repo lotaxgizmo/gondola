@@ -7,7 +7,7 @@ import xheader from '../assets/xheader.svg'
 
 function Header() {
     return (
-        <div className='z-40 mb-20 lg:mb-16 rounded-full flex flex-row justify-center items-center bg-[#FEFEFE]/40 .backdrop-blur-sm w-11/12 lg:w-96'>
+        <div className='z-40 mb-20 -mt-10 lg:mt-0 lg:mb-16 rounded-full flex flex-row justify-center items-center bg-[#FEFEFE]/40 .backdrop-blur-sm w-11/12 lg:w-96'>
 
             <img src={tgheader} alt="" className='m-2 w-9' />
             <img src={dextheader} alt="" className='m-2 w-9' />
