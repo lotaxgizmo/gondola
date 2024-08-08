@@ -6,17 +6,22 @@ import gondolaaboutmobile from '../assets/gondolaaboutmobile.png'
 import miniscarfdola from '../assets/miniscarfdola.png'
 
 import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
 import Video from './Video'
 
 function What() {
     return (
         <div id='about' className='flex flex-col justify-center items-center p-5 noise2 relative lg:pb-20'>
 
-            <Fade left>
+            <Bounce left>
 
                 <img src={miniscarfdola} alt="" className='w-96 absolute -top-20  right-0 ' />
-            </Fade>
-            <img src={whatis} alt="" className='w-11/12 hidden lg:flex mb-3 z-10' />
+            </Bounce>
+            <Bounce right>
+
+                <img src={whatis} alt="" className='w-11/12 hidden lg:flex mb-3 z-10' />
+            </Bounce>
+
             <img src={whatismobile} alt="" className='w-10/12 lg:hidden flex mb-3 z-10' />
             <img src={gondolaaboutmobile} alt="" className='lg:hidden flex mb-3 z-10' />
             <div className="aboutt relative flex justify-center items-center">
