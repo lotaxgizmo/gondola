@@ -18,11 +18,11 @@ function Buy() {
                     <div className="elite p-3 top flex flex-row flex-wrap justify-center items-center">
 
                         <Fade cascade bottom >
-                            <a href="/#" target="_blank" rel="noopener noreferrer">
+                            <a href="https://swap.cow.fi/#/1/swap/ETH/GONDOLA" target="_blank" rel="noopener noreferrer">
                                 <img src={cowswap} alt="" className='w-32 lg:w-60 p-1' />
                             </a>
 
-                            <a href="/#" target="_blank" rel="noopener noreferrer">
+                            <a href="https://app.uniswap.org/explore/tokens/ethereum/0xd43fba1f38d9b306aeef9d78ad177d51ef802b46" target="_blank" rel="noopener noreferrer">
                                 <img src={uniswap} alt="" className='w-32 lg:w-60 p-1' />
                             </a>
 

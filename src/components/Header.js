@@ -8,12 +8,23 @@ import xheader from '../assets/xheader.svg'
 function Header() {
     return (
         <div className='z-40 mb-20 -mt-10 lg:mt-0 lg:mb-16 rounded-full flex flex-row justify-center items-center bg-[#FEFEFE]/40 .backdrop-blur-sm w-11/12 lg:w-96'>
+            <a href="https://t.me/GondolaCTO" target="_blank" rel="noopener noreferrer">
+                <img src={tgheader} alt="" className='m-2 w-9' />
+            </a>
 
-            <img src={tgheader} alt="" className='m-2 w-9' />
-            <img src={dextheader} alt="" className='m-2 w-9' />
+            <a href="https://www.dextools.io/app/en/token/gondola" target="_blank" rel="noopener noreferrer">
+                <img src={dextheader} alt="" className='m-2 w-9' />
+            </a>
+
             <img src={menuheader} alt="" className='m-2 w-14' />
-            <img src={cgheader} alt="" className='m-2 w-9' />
-            <img src={xheader} alt="" className='m-2 w-9' />
+
+            <a href="https://www.coingecko.com/en/coins/gondola" target="_blank" rel="noopener noreferrer">
+                <img src={cgheader} alt="" className='m-2 w-9' />
+            </a>
+
+            <a href="https://x.com/GondolaCTO" target="_blank" rel="noopener noreferrer">
+                <img src={xheader} alt="" className='m-2 w-9' />
+            </a>
         </div>
     )
 }

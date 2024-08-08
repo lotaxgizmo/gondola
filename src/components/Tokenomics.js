@@ -9,7 +9,7 @@ import Fade from 'react-reveal/Fade';
 
 function Tokenomics() {
     return (
-        <div className='flex flex-col justify-center items-center bg-[#B3E7FE]'>
+        <div id='tokenomics' className='flex flex-col justify-center items-center bg-[#B3E7FE] w-full'>
             <Fade cascade big >
 
                 <img src={tokenomics} alt="" className='w-9/12' />

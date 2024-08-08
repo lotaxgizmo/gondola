@@ -18,10 +18,25 @@ function Join() {
                 <Fade cascade left >
 
                     <div className="socials flex flex-row justify-center items-center">
-                        <img src={tiktokround} className='w-14 lg:w-20 mx-3 lg:mx-6 my-4' alt="" />
-                        <img src={tground} className='w-14 lg:w-20 mx-3 lg:mx-6 my-4' alt="" />
-                        <img src={xround} className='w-14 lg:w-20 mx-3 lg:mx-6 my-4' alt="" />
-                        <img src={redditround} className='w-14 lg:w-20 mx-3 lg:mx-6 my-4' alt="" />
+                        <a href="https://tiktok.com/@gondolacto" target="_blank" rel="noopener noreferrer">
+
+                            <img src={tiktokround} className='w-14 lg:w-20 mx-3 lg:mx-6 my-4' alt="" />
+                        </a>
+
+                        <a href="https://t.me/GondolaCTO" target="_blank" rel="noopener noreferrer">
+
+                            <img src={tground} className='w-14 lg:w-20 mx-3 lg:mx-6 my-4' alt="" />
+                        </a>
+
+                        <a href="https://x.com/GondolaCTO" target="_blank" rel="noopener noreferrer">
+
+                            <img src={xround} className='w-14 lg:w-20 mx-3 lg:mx-6 my-4' alt="" />
+                        </a>
+
+                        <a href="https://www.reddit.com/r/Gondola/" target="_blank" rel="noopener noreferrer">
+
+                            <img src={redditround} className='w-14 lg:w-20 mx-3 lg:mx-6 my-4' alt="" />
+                        </a>
                     </div>
                 </Fade>
 

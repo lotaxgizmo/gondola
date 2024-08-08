@@ -10,7 +10,7 @@ import Video from './Video'
 
 function What() {
     return (
-        <div className='flex flex-col justify-center items-center p-5 noise2 relative lg:pb-20'>
+        <div id='about' className='flex flex-col justify-center items-center p-5 noise2 relative lg:pb-20'>
 
             <Fade left>
 

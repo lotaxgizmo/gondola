@@ -11,7 +11,7 @@ import ordinarygondola from '../assets/ordinarygondola.png'
 import Fade from 'react-reveal/Fade';
 function Howto() {
     return (
-        <div className='flex flex-col items-center justify-center howto relative pt-20'>
+        <div id='howto' className='flex flex-col items-center justify-center howto relative pt-20'>
 
             <div className="thing relative flex flex-col justify-center items-center w-full">
                 <Fade cascade big >

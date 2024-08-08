@@ -49,6 +49,7 @@ function Hero() {
                 </Fade>
 
             </div>
+
             <img src={capdola} alt="" className='absolute z-[1] w-16 lg:w-[200px] left-20 bottom-0 lg:left-[15%] lg:bottom-0 max-w-none' />
 
             <img src={legupdola} alt="" className='absolute z-[1] w-[150px]   bottom-0 hidden lg:flex  right-[20%] lg:bottom-0 max-w-none' />
@@ -56,8 +57,12 @@ function Hero() {
             <img src={snabdola} alt="" className='absolute z-[1] w-[150px]   bottom-0 hidden lg:flex  right-[0%] lg:bottom-10 max-w-none' />
 
             <div className='z-20 flex flex-row justify-center items-center'>
-                <img src={buynow} alt="" className='z-20 w-52 lg:w-72 p-2' />
-                <img src={chart} alt="" className='z-20 w-52 lg:w-72 p-2' />
+                <a href="https://app.uniswap.org/explore/tokens/ethereum/0xd43fba1f38d9b306aeef9d78ad177d51ef802b46" target="_blank" rel="noopener noreferrer">
+                    <img src={buynow} alt="" className='z-20 w-52 lg:w-72 p-2' />
+                </a>
+                <a href="https://www.dextools.io/app/en/token/gondola" target="_blank" rel="noopener noreferrer">
+                    <img src={chart} alt="" className='z-20 w-52 lg:w-72 p-2' />
+                </a>
             </div>
 
             <img src={CA} alt="" className='z-20 w-96 lg:w-8/12 mb-20 lg:mb-96 ' />

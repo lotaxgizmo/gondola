@@ -25,15 +25,15 @@ function Link() {
                         <div className="elite p-3 top flex flex-row justify-center items-center">
                             <Fade cascade big >
 
-                                <a href="/#" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.coingecko.com/en/coins/gondola" target="_blank" rel="noopener noreferrer">
                                     <img src={coingecko} alt="" className='w-28 lg:w-60 p-1' />
                                 </a>
 
-                                <a href="/#" target="_blank" rel="noopener noreferrer">
+                                <a href="https://tiktok.com/@gondolacto" target="_blank" rel="noopener noreferrer">
                                     <img src={tiktok} alt="" className='w-28 lg:w-60 p-1' />
                                 </a>
 
-                                <a href="/#" target="_blank" rel="noopener noreferrer">
+                                <a href="https://x.com/GondolaCTO" target="_blank" rel="noopener noreferrer">
                                     <img src={twitter} alt="" className='w-28 lg:w-60 p-1' />
                                 </a>
 
@@ -43,15 +43,15 @@ function Link() {
                         <div className="elite p-3 top flex flex-row justify-center items-center">
 
                             <Fade cascade big >
-                                <a href="/#" target="_blank" rel="noopener noreferrer">
+                                <a href="https://coinmarketcap.com/currencies/gondola/" target="_blank" rel="noopener noreferrer">
                                     <img src={cmc} alt="" className='w-28 lg:w-60 p-1' />
                                 </a>
 
-                                <a href="/#" target="_blank" rel="noopener noreferrer">
+                                <a href="https://www.dextools.io/app/en/token/gondola" target="_blank" rel="noopener noreferrer">
                                     <img src={dextools} alt="" className='w-28 lg:w-60 p-1' />
                                 </a>
 
-                                <a href="/#" target="_blank" rel="noopener noreferrer">
+                                <a href="https://t.me/GondolaCTO" target="_blank" rel="noopener noreferrer">
                                     <img src={telegram} alt="" className='w-28 lg:w-60 p-1' />
                                 </a>
                             </Fade>
