@@ -27,7 +27,7 @@ function App() {
       <Howto />
       <Tokenomics />
 
-      <Gallery />
+      {/* <Gallery /> */}
       <Theblack />
 
       <Join />

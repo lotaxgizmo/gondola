@@ -23,7 +23,7 @@ function Tokenomics() {
                     <img src={contractrev} alt="" className='p-2  lg:w-80 w-96' />
                 </Fade>
             </div>
-            <img src={ca2} alt="" className='p-2 lg:w-10/12' />
+            {/* <img src={ca2} alt="" className='p-2 lg:w-10/12' /> */}
         </div>
     )
 }

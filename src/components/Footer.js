@@ -9,7 +9,7 @@ import howto from '../assets/howto.svg'
 function Footer() {
     return (
         <div className='flex flex-col justify-center items-center bg-[#FE93C7] pb-10'>
-            <img src={cabottom} alt="" className='w-10/12 lg:w-8/12' />
+            {/* <img src={cabottom} alt="" className='w-10/12 lg:w-8/12' /> */}
 
             <div className="cl flex  flex-row justify-center items-center mt-5 lg:mt-0">
                 <img src={about} alt="" className='lg:w-52 w-16' />
