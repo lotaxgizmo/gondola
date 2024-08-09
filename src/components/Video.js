@@ -11,8 +11,10 @@ function Video() {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     videoElement.muted = false;
+                    videoElement.play(); // Ensure video starts playing
                 } else {
                     videoElement.muted = true;
+                    videoElement.pause(); // Pause when not in view
                 }
             });
         };
@@ -35,7 +37,15 @@ function Video() {
 
     return (
         <div className='lg:absolute z-10 flex justify-center items-center'>
-            <video ref={videoRef} src={gondolavid} autoPlay loop muted className='w-96 lg:w-8/12 border-2x border-whitex lg:mt-10 rounded-xl'></video>
+            <video
+                ref={videoRef}
+                src={gondolavid}
+                autoPlay
+                loop
+                muted
+                playsInline // Added playsInline attribute for mobile
+                className='w-96 lg:w-8/12 border-2x border-whitex lg:mt-10 rounded-xl'>
+            </video>
         </div>
     );
 }
