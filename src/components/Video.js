@@ -11,23 +11,27 @@ function Video() {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     videoElement.muted = false;
-                    videoElement.play(); // Ensure video starts playing
+                    videoElement.play().catch(error => {
+                        console.error('Autoplay failed:', error);
+                    });
                 } else {
                     videoElement.muted = true;
-                    videoElement.pause(); // Pause when not in view
+                    videoElement.pause();
                 }
             });
         };
 
         const observer = new IntersectionObserver(handleIntersection, {
-            threshold: 0.5, // Adjust this value as needed
+            threshold: 0.5,
         });
 
         if (videoElement) {
             observer.observe(videoElement);
+            videoElement.play().catch(error => {
+                console.error('Initial play failed:', error);
+            });
         }
 
-        // Clean up the observer on unmount
         return () => {
             if (videoElement) {
                 observer.unobserve(videoElement);
@@ -43,7 +47,7 @@ function Video() {
                 autoPlay
                 loop
                 muted
-                playsInline // Added playsInline attribute for mobile
+                playsInline
                 className='w-96 lg:w-8/12 border-2x border-whitex lg:mt-10 rounded-xl'>
             </video>
         </div>
