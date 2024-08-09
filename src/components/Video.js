@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import gondolavid from '../assets/gondolavid.mp4';
+import play from '../assets/play.png';
 
 function Video() {
     const videoRef = useRef(null);
@@ -71,7 +72,7 @@ function Video() {
                 <button
                     onClick={handlePlayButtonClick}
                     className='absolute bg-black bg-opacity-50 text-white p-2 rounded-md'>
-                    Play
+                    <img src={play} alt="" className='lg:m-20d' />
                 </button>
             )}
         </div>
