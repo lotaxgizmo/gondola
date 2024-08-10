@@ -44,7 +44,7 @@ function Hero() {
 
             <div className="hero flex flex-col justify-center items-center relative w-fit border-2d">
                 <img src={skydola} alt="" className='animate-bounce transition-transform duration-200 ease-in-out transform hover:scale-95 active:scale-90 absolute z-[1] w-16 lg:w-[200px] left-52 -top-20 lg:left-[35%] lg:-top-16 max-w-none' />
-                <img src={hairdola} alt="" className='transition-transform duration-200 ease-in-out transform hover:scale-95 active:scale-90 absolute z-[1] w-16 lg:w-[250px] right-60  -top-16 lg:right-80 lg:-top-32 max-w-none' />
+                {/* <img src={hairdola} alt="" className='transition-transform duration-200 ease-in-out transform hover:scale-95 active:scale-90 absolute z-[1] w-16 lg:w-[250px] right-60  -top-16 lg:right-80 lg:-top-32 max-w-none' /> */}
                 <img src={standongondola} alt="" className='transition-transform duration-200 ease-in-out transform hover:scale-95 active:scale-90 absolute z-[1] w-12 lg:w-[150px] right-5 -top-10 lg:right-24 lg:-top-16 max-w-none' />
                 <Bounce>
 
